@@ -1,0 +1,12 @@
+<h1>Games#score</h1>
+<p>Find me in app/views/games/score.html.erb</p>
+
+<!-- app/views/games/score.html.erb -->
+<h1>Score</h1>
+<p><%= @message %></p>
+
+<!-- Display the score for this attempt -->
+<p>Your score for this attempt is: <%= @score %></p>
+
+
+<%= link_to "Play Again", '/new', class: "btn btn-primary" %>
